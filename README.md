@@ -5,7 +5,7 @@
 
 ## Dataset
 Statistics of our dataset
-![Dataset Statistics](/data/data_statistics.png =100x)
+![Dataset Statistics](./data/data_statistics.png =100x)
 *Dataset can be download at <https://drive.google.com/open?id=18BV1oDsvEVY1xvefLe0QpGBPgpvNGY43>*
 
 ## Data Preprocessing
