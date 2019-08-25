@@ -4,8 +4,9 @@
 
 
 ## Dataset
-Statistics of our dataset
-<img src="./data/data_statistics.png" alt="Dataset Statistics" width="200"/>
+Statistics of our dataset:
+
+<img src="./data/data_statistics.png" alt="Dataset Statistics" width="500"/>
 
 *Dataset can be download at <https://drive.google.com/open?id=18BV1oDsvEVY1xvefLe0QpGBPgpvNGY43>*
 
