@@ -26,4 +26,4 @@ labels to app development teams.
 
 <img src="Generalization&Usefulness/boxplot.png" alt="Generalization&Usefulness Results" width="500"/>
 
-[Generalization&Usefulness](https://github.com/icse2020Accessibility/icse2020Accessibility/blob/master/Generalization$Usefulness) contains all data we used in this part and the results from model(M), developers(A1,A2,A3) and Evaluator.
+[Generalization&Usefulness](https://github.com/icse2020Accessibility/icse2020Accessibility/blob/master/Generalization%26Usefulness) contains all data we used in this part and the results from model(M), developers(A1,A2,A3) and Evaluator.
