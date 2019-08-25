@@ -5,14 +5,12 @@
 
 ## Dataset
 Statistics of our dataset
-![Dataset Statistics](./data/data_statistics.png =100x)
+![Dataset Statistics](/data/data_statistics.png =100x)
 *Dataset can be download at <https://drive.google.com/open?id=18BV1oDsvEVY1xvefLe0QpGBPgpvNGY43>*
 
 ## Data Preprocessing
 
 The list of meaningless labels can be seen in <https://github.com/icse2020Accessibility/icse2020Accessibility/blob/master/Data_preprocessing/meaningless_label.txt>
-
-
 ## Evaluation
 We 
 
@@ -21,7 +19,7 @@ We
 
 
 ### Generalization & Usefulness
-![Generalization&Usefulness Results](Generalization$Usefulness/app_details.png)
-![Generalization&Usefulness Results](Generalization$Usefulness/boxplot.png)
+![Generalization&Usefulness Results](Generalization%26Usefulness/app_details.png)
+![Generalization&Usefulness Results](Generalization%26Usefulness/boxplot.png)
 
 [Generalization&Usefulness Folder]<https://github.com/icse2020Accessibility/icse2020Accessibility/blob/master/Generalization$Usefulness> contains all data we used in this part and the results from model(M), developers(A1,A2,A3) and Evaluator.
