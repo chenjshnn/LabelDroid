@@ -5,8 +5,7 @@
 
 ## Dataset
 Statistics of our dataset
-
-![Dataset Statistics](./data/data_statistics.png =100x)
+<img src="./data/data_statistics.png" alt="Dataset Statistics" width="200"/>
 
 *Dataset can be download at <https://drive.google.com/open?id=18BV1oDsvEVY1xvefLe0QpGBPgpvNGY43>*
 
