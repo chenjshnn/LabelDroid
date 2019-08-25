@@ -1,4 +1,4 @@
-#Unblind Your Apps: Predicting Natural-Language Labels for Mobile GUI Components by Deep Learning
+# Unblind Your Apps: Predicting Natural-Language Labels for Mobile GUI Components by Deep Learning
 
 ## Introduction
 
@@ -13,7 +13,7 @@ Statistics of our dataset
 The list of meaningless labels can be seen in <https://github.com/icse2020Accessibility/icse2020Accessibility/blob/master/Data_preprocessing/meaningless_label.txt>
 
 
-##Evaluation
+## Evaluation
 We 
 
 ### Accuracy
