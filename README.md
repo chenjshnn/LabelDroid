@@ -1,7 +1,5 @@
 # Unblind Your Apps: Predicting Natural-Language Labels for Mobile GUI Components by Deep Learning
 
-:## Introduction
-
 ## Dataset
 <b>Statistics of our dataset:</b>
 
