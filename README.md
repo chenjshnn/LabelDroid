@@ -31,9 +31,9 @@ Preprocessing:
 1. Filter duplicate xml
 2. Filter duplicate elements by comparing both their screenshots and the content descriptions
 3. Filter low-quality labels
-3.1 Labels contain the class of elments, e.g, "ImageView"
-3.2 Labels contain the app's name, e.g., "ringtone maker" for App Ringtone Maker
-3.3 Unfinished labels, e.g., "content description"
+(1) Labels contain the class of elments, e.g, "ImageView"
+(2) Labels contain the app's name, e.g., "ringtone maker" for App Ringtone Maker
+(3) Unfinished labels, e.g., "content description"
 
 The whole list of meaningless labels can be seen at [Data_preprocessing/missing_label.txt](./Dataset/meaningless_label.txt)
 
