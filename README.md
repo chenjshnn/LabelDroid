@@ -1,28 +1,83 @@
 # Unblind Your Apps: Predicting Natural-Language Labels for Mobile GUI Components by Deep Learning
 
-## Dataset
+## INTRODUCTION
+
+<b> This image shows an example of UI components and labels. For example, the content description for the top-right image-based button of the UI screenshot is ''more options''.</b>
+
+<img src="./Introduction/Figure1.png" alt="Example of UI components and labels" />
+
+<img src="./Introduction/Figure2.png" alt="Source code for setting up labels for 'add playlist' button (which is indeed a clickable ImageView)" />
+
+<img src="./Introduction/Figure3.png" alt="Examples of image-based buttons 1:clickable ImageView; 2/3:ImageButton" />
+
+## MOTIVATIONAL MINING STUDY
+
+<b>We conduct a motivational mining study of 15,087 apps. Among these apps, we collected 394,489 GUI screenshots, and 70.53% of them contain image-based buttons.</b>
+
+<img src="./Motivational_mining_study/Table1.png" alt="Statistics of label missing situation" />
+
+<img src="./Motivational_mining_study/Figure4.png" alt="The distribution of the category of applications with different rate of image-based buttons missing content description" />
+
+<img src="./Motivational_mining_study/Figure5.png" alt="Box-plot for missing rate distribution of all apps with different download number" />
+
+## APPROACH
+
+<img src="./Approach/Figure6.png" alt="Overview of our approach" />
+
+
+## DATA PREPROCESSING
+
+Preprocessing:
+1. Filter duplicate xml
+2. Filter duplicate elements by comparing both their screenshots and the content descriptions
+3. Filter low-quality labels
+	3.1 Labels contain the class of elments, e.g, "ImageView"
+	3.2 Labels contain the app's name, e.g., "ringtone maker" for App Ringtone Maker
+	3.3 Unfinished labels, e.g., "content description"
+
+The list of meaningless labels can be seen at [Data_preprocessing/missing_label.txt](./Dataset/meaningless_label.txt)
+
+
+## DATASET
+
+<img src="./Dataset/Figure7.png" alt="Examples of our dataset" width="500"/>
+
+
 <b>Statistics of our dataset:</b>
 
-<img src="./data/data_statistics.png" alt="Dataset Statistics" width="500"/>
+<img src="./Dataset/Table2.png" alt="Dataset Statistics" width="500"/>
 
 *Dataset can be download at <https://drive.google.com/open?id=18BV1oDsvEVY1xvefLe0QpGBPgpvNGY43>*
 
-## Data Preprocessing
-
-The list of meaningless labels can be seen at [Data_preprocessing/missing_label.txt](./Data_preprocessing/meaningless_label.txt)
-
-## Evaluation
+## EVALUATION
 We evaluate our model in three aspects, i.e., accuracy with
 automated testing, generality and usefulness with user study. We
 also shows the practical value of LabelDroid by submitting the
 labels to app development teams.
 
 ### Accuracy
-![Accuracy Results](Accuracy/accuracy_result.png)
+
+Overall accuracy results
+![Accuracy Results](Accuracy/Table3.png)
+
+Results by different download number
+![Accuracy Results](Accuracy/Figure8.png)
+
+Qualitative Performance with Baselines
+![Accuracy Results](Accuracy/Table4.png)
+
+Common causes for generation failure
+![Accuracy Results](Accuracy/Table5.png)
 
 
 ### Generalization & Usefulness
+
+App details and results:
 ![Generalization&Usefulness Results](Generalization%26Usefulness/app_details.png)
+
+![Generalization&Usefulness Results](Generalization%26Usefulness/boxplot.png)
+
+![Generalization&Usefulness Results](Generalization%26Usefulness/Table7.png)
 
 <img src="Generalization&Usefulness/boxplot.png" alt="Generalization&Usefulness Results" width="500"/>
 
