@@ -6,9 +6,9 @@
 
 <img src="./Introduction/Figure1.png" alt="Example of UI components and labels"  width="600"/>
 
-<img src="./Introduction/Figure2.png" alt="Source code for setting up labels for 'add playlist' button (which is indeed a clickable ImageView)" />
+<img src="./Introduction/Figure2.png" alt="Source code for setting up labels for 'add playlist' button (which is indeed a clickable ImageView)"   width="600"/>
 
-<img src="./Introduction/Figure3.png" alt="Examples of image-based buttons 1:clickable ImageView; 2/3:ImageButton" />
+<img src="./Introduction/Figure3.png" alt="Examples of image-based buttons 1:clickable ImageView; 2/3:ImageButton"   width="600"/>
 
 ## MOTIVATIONAL MINING STUDY
 
