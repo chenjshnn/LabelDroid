@@ -72,12 +72,11 @@ Common causes for generation failure
 ### Generalization & Usefulness
 
 App details and results:
-![Generalization&Usefulness Results](Generalization%26Usefulness/app_details.png)
+<img src="Generalization&Usefulness/app_details.png" alt="The acceptability score (AS) and the standard deviation for 12 completely unseen apps. * denotes p < 0.05."/>
 
-![Generalization&Usefulness Results](Generalization%26Usefulness/boxplot.png)
+<img src="Generalization&Usefulness/boxplot.png" alt="Distribution of app acceptability scores by human
+annotators (A1, A2, A3) and the model (M)" width="500"/>
 
-![Generalization&Usefulness Results](Generalization%26Usefulness/Table7.png)
-
-<img src="Generalization&Usefulness/boxplot.png" alt="Generalization&Usefulness Results" width="500"/>
+<img src="Generalization&Usefulness/Table7.png" alt="Examples of generalization" />
 
 [Generalization&Usefulness](https://github.com/icse2020Accessibility/icse2020Accessibility/blob/master/Generalization%26Usefulness) contains all data we used in this part and the results from model(M), developers(A1,A2,A3) and Evaluator.
