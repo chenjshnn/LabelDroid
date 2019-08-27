@@ -14,11 +14,11 @@
 
 <b>We conduct a motivational mining study of 15,087 apps. Among these apps, we collected 394,489 GUI screenshots, and 70.53% of them contain image-based buttons.</b>
 
-<img src="./Motivational_mining_study/Table1.png" alt="Statistics of label missing situation" />
+<img src="./Motivational_mining_study/Table1.png" alt="Statistics of label missing situation"  width="600" />
 
-<img src="./Motivational_mining_study/Figure4.png" alt="The distribution of the category of applications with different rate of image-based buttons missing content description" />
+<img src="./Motivational_mining_study/Figure4.png" alt="The distribution of the category of applications with different rate of image-based buttons missing content description"   width="600"/>
 
-<img src="./Motivational_mining_study/Figure5.png" alt="Box-plot for missing rate distribution of all apps with different download number" />
+<img src="./Motivational_mining_study/Figure5.png" alt="Box-plot for missing rate distribution of all apps with different download number"   width="600"/>
 
 ## APPROACH
 
