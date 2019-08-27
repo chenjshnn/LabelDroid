@@ -59,7 +59,7 @@ labels to app development teams.
 Overall accuracy results
 ![Accuracy Results](Accuracy/Table3.png)
 
-Results by different download number
+Results by different category
 ![Accuracy Results](Accuracy/Figure8.png)
 
 Qualitative Performance with Baselines
