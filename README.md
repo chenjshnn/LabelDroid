@@ -14,7 +14,7 @@ We also submit our predicted labels of buttons of some apps to their development
 
 
 ## Details
-To achieve our goal, we first show some examples to illustrate what is a content description and how to apply labels for a component.
+To demonstrate our task, we first show some examples to illustrate what is a content description and how to apply labels for a component.
 
 (1) Figure 1 shows an example of UI components and corresponding natural-language labels. For example, the label for the top-right image-based button of this UI screenshot is ''more options''
 
@@ -40,7 +40,8 @@ As seen in Figure 4, the accessibility issues exist in all categories, especiall
 
 <img src="./Motivational_mining_study/Figure4.png" alt="The distribution of the category of applications with different rate of image-based buttons missing content description"   width="500"/>
 
-In addition, we plot a box-plot regarding to different download number (as seen in Figure 5). Surprisingly, there is no significant difference between applications with different download numbers. Even applications with over 50M download number have a severe accessibility problem.
+In addition, we plot a box-plot regarding to different download number (as seen in Figure 5). Surprisingly, there is <b>no significant difference</b> between applications with different download numbers. Even applications with over 50M download number have a severe accessibility problem. We conducted a Spearman rank-order correlation test between app download number and label-missing
+rate. The correlation coefficient is 0.046 showing a very weak relationship between these two factors.
 
 <img src="./Motivational_mining_study/Figure5.png" alt="Box-plot for missing rate distribution of all apps with different download number"   width="500"/>
 
@@ -50,6 +51,7 @@ Figure 6 shows the overview of our approach. We first encode a component image v
 <img src="./Approach/Figure6.png" alt="Overview of our approach" />
 
 ## DATA PREPROCESSING
+To implement our model, we first filter noisy data.
 
 Preprocessing:
 1. Filter duplicate xml
