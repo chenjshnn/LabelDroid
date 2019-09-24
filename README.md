@@ -14,7 +14,7 @@ We also submit our predicted labels of buttons of some apps to their development
 
 
 ### Details
-To demonstrate our task, we first show some examples to illustrate what is a content description and how to apply labels for a component.
+To demonstrate our task, we first show some examples to illustrate what is natural-language labels for components and how to set up labels for components.
 
 (1) Figure 1 shows an example of UI components and corresponding natural-language labels. For example, the label for the top-right image-based button of this UI screenshot is ''more options''
 
