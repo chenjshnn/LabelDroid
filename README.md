@@ -12,7 +12,7 @@ To overcome these challenges, we develop a deep-learning based model to <b> auto
 The experiment results show that our model can make accurate predictions and the generated labels are of higher quality than that from real Android developers.
 We also submit our predicted labels of buttons of some apps to their development teams, and successfully get some positive feedback.
 
----------------------
+
 ## Details
 To achieve our goal, we first show some examples to illustrate what is a content description and how to apply labels for a component.
 
@@ -45,13 +45,11 @@ In addition, we plot a box-plot regarding to different download number (as seen 
 <img src="./Motivational_mining_study/Figure5.png" alt="Box-plot for missing rate distribution of all apps with different download number"   width="500"/>
 
 ## APPROACH
--------
 Figure 6 shows the overview of our approach. We first encode a component image via ResNet101 model, and then feed the extracted features into Transformer encoder-decoder model and finally generate the natural-language labels for this component.
 
 <img src="./Approach/Figure6.png" alt="Overview of our approach" />
 
 ## DATA PREPROCESSING
-----------
 
 Preprocessing:
 1. Filter duplicate xml
