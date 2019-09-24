@@ -18,15 +18,15 @@ To achieve our goal, we first show some examples to illustrate what is a content
 
 (1) Figure 1 shows an example of UI components and labels. For example, the content description for the top-right image-based button of the UI screenshot is ''more options''.
 
-<img src="./Introduction/Figure1.png" alt="Example of UI components and labels"  width="600"/>
+<img src="./Introduction/Figure1.png" alt="Example of UI components and labels"  width="500"/>
 
 (2) Figure 2 shows how to label a button within the source code
-<img src="./Introduction/Figure2.png" alt="Source code for setting up labels for 'add playlist' button (which is indeed a clickable ImageView)"   width="600"/>
+<img src="./Introduction/Figure2.png" alt="Source code for setting up labels for 'add playlist' button (which is indeed a clickable ImageView)"   width="500"/>
 
 We only focus on image-based buttons because these buttons give no hints to screen reader when developers fail to label them, while for example, for TextView/EditText, screen reader could read the content directly.
 
 (3) Figure 3 gives some example of image-based buttons, including clickable ImageView and ImageButton
-<img src="./Introduction/Figure3.png" alt="Examples of image-based buttons 1:clickable ImageView; 2/3:ImageButton"   width="600"/>
+<img src="./Introduction/Figure3.png" alt="Examples of image-based buttons 1:clickable ImageView; 2/3:ImageButton"   width="500"/>
 
 ## MOTIVATIONAL MINING STUDY
 
@@ -34,16 +34,16 @@ To investigate the severity of accessibility issues in mobile applications, we c
 
 As shown in Table 1, 77.38% of applications have at least one UI component lacking labels. In details, 60.79% screenshots have at least one UI component without labels, which means that low-vision/blind people will meet some problems when browsing every two screen of application.
 
-<img src="./Motivational_mining_study/Table1.png" alt="Statistics of label missing situation"  width="600" />
+<img src="./Motivational_mining_study/Table1.png" alt="Statistics of label missing situation"  width="500" />
 
 
 As seen in Figure 4, the accessibility issues exist in all categories, especially serious in PERSONALIZATION and GAME, with over 70% applications having 80%-100% components lacking lables.
 
-<img src="./Motivational_mining_study/Figure4.png" alt="The distribution of the category of applications with different rate of image-based buttons missing content description"   width="600"/>
+<img src="./Motivational_mining_study/Figure4.png" alt="The distribution of the category of applications with different rate of image-based buttons missing content description"   width="500"/>
 
 In addition, we plot a box-plot regarding to different download number (as seen in Figure 5). Surprisingly, there is no significant difference between applications with different download number. Even applications with over 50M download number have a severe accessibility problem.
 
-<img src="./Motivational_mining_study/Figure5.png" alt="Box-plot for missing rate distribution of all apps with different download number"   width="600"/>
+<img src="./Motivational_mining_study/Figure5.png" alt="Box-plot for missing rate distribution of all apps with different download number"   width="500"/>
 
 ## APPROACH
 
