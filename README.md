@@ -1,14 +1,14 @@
 # Unblind Your Apps: Predicting Natural-Language Labels for Mobile GUI Components by Deep Learning
 
 ## INTRODUCTION
-According to the World Health Organization(WHO), it is estimated that approximately 1.3 billion people live with some form of vision impairment globally, of whom 36 million are blind.
+According to the World Health Organization(WHO), it is estimated that <b> approximately 1.3 billion people live with some form of vision impairment globally, of whom 36 million are blind.</b>
 Due to their disability, engaging these minority into the society is a challenging problem.
 
 The recent rise of smart mobile phones provides a new solution by enabling blind users' convenient access to the information and service for understanding the world. Users with vision impairment can adopt the screen reader embedded in the mobile operating systems to read the content of each screen within the app, and use gestures to interact with the phone.
 
-However, the prerequisite of using screen readers is that developers have to add natural-language labels to the image-based components when they are developing the app. Unfortunately, more than 77\% apps have issues of missing labels, according to our analysis of 10,408 Android apps. Most of these issues are caused by developers' lack of awareness and knowledge in considering the minority. And even if developers want to add the labels to UI components, they may not come up with concise and clear description as most of them are of no visual issues. 
+However, the prerequisite of using screen readers is that developers have to add natural-language labels to the image-based components when they are developing the app. Unfortunately, <b>more than 77\% apps have issues of missing labels, according to our analysis of 10,408 Android apps.</b> Most of these issues are caused by developers' lack of awareness and knowledge in considering the minority. And even if developers want to add the labels to UI components, they may not come up with concise and clear description as most of them are of no visual issues. 
 
-To overcome these challenges, we develop a deep-learning based model to <b> automatically predict the labels </b> of image-based buttons by learning from large-scale commercial apps in Google Play.
+To overcome these challenges, we develop a deep-learning based model to <b> automatically predict the labels of image-based buttons by learning from large-scale commercial apps in Google Play.</b>
 The experiment results show that our model can make accurate predictions and the generated labels are of higher quality than that from real Android developers.
 We also submit our predicted labels of buttons of some apps to their development teams, and successfully get some positive feedback.
 
