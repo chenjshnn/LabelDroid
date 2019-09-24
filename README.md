@@ -40,7 +40,8 @@ As seen in Figure 4, the accessibility issues exist in all categories, especiall
 
 <img src="./Motivational_mining_study/Figure4.png" alt="The distribution of the category of applications with different rate of image-based buttons missing content description"   width="500"/>
 
-In addition, we plot a box-plot regarding to different download number (as seen in Figure 5). Surprisingly, there is <b>no significant difference</b> between applications with different download numbers. Even applications with over 50M download number have a severe accessibility problem. We conducted a Spearman rank-order correlation test between app download number and label-missing
+In addition, we plot a box-plot regarding to different download number (as seen in Figure 5). Surprisingly, there is 
+<b>no significant difference</b> between applications with different download numbers. Even applications with over 50M download number have a severe accessibility problem. We conducted a Spearman rank-order correlation test between app download number and label-missing
 rate. The correlation coefficient is 0.046 showing a very weak relationship between these two factors.
 
 <img src="./Motivational_mining_study/Figure5.png" alt="Box-plot for missing rate distribution of all apps with different download number"   width="500"/>
