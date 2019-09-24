@@ -16,41 +16,42 @@ We also submit our predicted labels of buttons of some apps to their development
 ## Details
 To achieve our goal, we first show some examples to illustrate what is a content description and how to apply labels for a component.
 
-(1) Figure 1 shows an example of UI components and labels. For example, the content description for the top-right image-based button of the UI screenshot is ''more options''.
+(1) Figure 1 shows an example of UI components and corresponding natural-language labels. For example, the label for the top-right image-based button of this UI screenshot is ''more options''
 
 <img src="./Introduction/Figure1.png" alt="Example of UI components and labels"  width="500"/>
 
-(2) Figure 2 shows how to label a button within the source code
+(2) Figure 2 shows how to set up an image-based button within the source code
 <img src="./Introduction/Figure2.png" alt="Source code for setting up labels for 'add playlist' button (which is indeed a clickable ImageView)"   width="500"/>
 
-We only focus on image-based buttons because these buttons give no hints to screen reader when developers fail to label them, while for example, for TextView/EditText, screen reader could read the content directly.
+We only focus on image-based buttons because these buttons give no hints to screen reader when developers fail to label them, while for other components, such as TextView and EditText, screen reader could read the content directly.
 
-(3) Figure 3 gives some example of image-based buttons, including clickable ImageView and ImageButton
+(3) Figure 3 gives some examples of image-based buttons, including clickable ImageView and ImageButton
 <img src="./Introduction/Figure3.png" alt="Examples of image-based buttons 1:clickable ImageView; 2/3:ImageButton"   width="500"/>
 
 ## MOTIVATIONAL MINING STUDY
 
-To investigate the severity of accessibility issues in mobile applications, we conduct a motivational mining study of 15,087 apps. Among these apps, we collected 394,489 GUI screenshots, and 70.53% of them contain image-based buttons.</b>
+To investigate the severity of accessibility issues in mobile applications, we conduct a motivational mining study of <b>15,087</b> apps. Among these apps, we collected <b>394,489 GUI screenshots</b>, and 70.53% of them contain image-based buttons.</b>
 
-As shown in Table 1, 77.38% of applications have at least one UI component lacking labels. In details, 60.79% screenshots have at least one UI component without labels, which means that low-vision/blind people will meet some problems when browsing every two screen of application.
+As shown in Table 1, <b>77.38% of applications</b> have at least one UI component lacking labels. In details, <b>60.79% screenshots</b> have at least one UI component missing labels, which means that low-vision/blind people will meet some problems when browsing every two screen of application.
 
 <img src="./Motivational_mining_study/Table1.png" alt="Statistics of label missing situation"  width="500" />
-
 
 As seen in Figure 4, the accessibility issues exist in all categories, especially serious in PERSONALIZATION and GAME, with over 70% applications having 80%-100% components lacking lables.
 
 <img src="./Motivational_mining_study/Figure4.png" alt="The distribution of the category of applications with different rate of image-based buttons missing content description"   width="500"/>
 
-In addition, we plot a box-plot regarding to different download number (as seen in Figure 5). Surprisingly, there is no significant difference between applications with different download number. Even applications with over 50M download number have a severe accessibility problem.
+In addition, we plot a box-plot regarding to different download number (as seen in Figure 5). Surprisingly, there is no significant difference between applications with different download numbers. Even applications with over 50M download number have a severe accessibility problem.
 
 <img src="./Motivational_mining_study/Figure5.png" alt="Box-plot for missing rate distribution of all apps with different download number"   width="500"/>
 
 ## APPROACH
+-------
+Figure 6 shows the overview of our approach. We first encode a component image via ResNet101 model, and then feed the extracted features into Transformer encoder-decoder model and finally generate the natural-language labels for this component.
 
 <img src="./Approach/Figure6.png" alt="Overview of our approach" />
 
-
 ## DATA PREPROCESSING
+----------
 
 Preprocessing:
 1. Filter duplicate xml
