@@ -21,11 +21,13 @@ To demonstrate our task, we first show some examples to illustrate what is natur
 <img src="./Introduction/Figure1.png" alt="Example of UI components and labels"  width="600"/>
 
 (2) Figure 2 shows how to set up an image-based button within the source code
+
 <img src="./Introduction/Figure2.png" alt="Source code for setting up labels for 'add playlist' button (which is indeed a clickable ImageView)"   width="600"/>
 
 We only focus on image-based buttons because these buttons give no hints to screen reader when developers fail to label them, while for other components, such as TextView and EditText, screen reader could read the content directly.
 
 (3) Figure 3 gives some examples of image-based buttons, including clickable ImageView and ImageButton
+
 <img src="./Introduction/Figure3.png" alt="Examples of image-based buttons 1:clickable ImageView; 2/3:ImageButton"   width="600"/>
 
 ## MOTIVATIONAL MINING STUDY
@@ -67,6 +69,7 @@ Preprocessing:
 
 ## DATASET
 Figure 7 shows some examples in our dataset.
+
 <img src="./Dataset/Figure7.png" alt="Examples of our dataset" width="600"/>
 
 Table 2 shows the statistics of our dataset. In total, we collect 7,694 applications, 36.677 screenshots and 57,698 components. Besides, we split our dataset into train/val/test set, with the approximate ratio of 0.8/0.1/0.1.
@@ -96,6 +99,7 @@ Common causes for generation failure
 ### Generalization & Usefulness
 
 App details and results:
+
 <img src="Generalization&Usefulness/app_details.png" alt="The acceptability score (AS) and the standard deviation for 12 completely unseen apps. * denotes p < 0.05."/>
 
 <img src="Generalization&Usefulness/boxplot.png" alt="Distribution of app acceptability scores by human
