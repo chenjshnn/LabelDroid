@@ -52,7 +52,7 @@ Figure 6 shows the overview of our approach. We first encode a component image v
 <img src="./Approach/Figure6.png" alt="Overview of our approach" />
 
 ## DATA PREPROCESSING
-To implement our model, we first filter noisy data.
+To implement our model, we first filter noisy data to construct our dataset.
 
 Preprocessing:
 1. Filter duplicate xml
@@ -62,14 +62,14 @@ Preprocessing:
 (2) Labels contain the app's name, e.g., "ringtone maker" for App Ringtone Maker
 (3) Unfinished labels, e.g., "content description"
 
-The full list of meaningless labels can be seen at [Data_preprocessing/missing_label.txt](./Dataset/meaningless_label.txt)
+*The full list of meaningless labels can be seen at [Data_preprocessing/missing_label.txt](./Dataset/meaningless_label.txt)*
 
 
 ## DATASET
 Figure 7 shows some examples in our dataset.
 <img src="./Dataset/Figure7.png" alt="Examples of our dataset" width="500"/>
 
-Table 2 shows the statistics of our dataset. In total, we collect 7,694 applications, 36.677 screenshots and 57,698 components. Besides, we split our dataset into train/val/test set, with the ratio of 0.8/0.1/0.1.
+Table 2 shows the statistics of our dataset. In total, we collect 7,694 applications, 36.677 screenshots and 57,698 components. Besides, we split our dataset into train/val/test set, with the approximate ratio of 0.8/0.1/0.1.
 
 <img src="./Dataset/Table2.png" alt="Dataset Statistics" width="500"/>
 
@@ -107,3 +107,5 @@ annotators (A1, A2, A3) and the model (M)" width="500"/>
 <img src="Generalization&Usefulness/Table7.png" alt="Examples of generalization" />
 
 [Generalization&Usefulness](https://github.com/icse2020Accessibility/icse2020Accessibility/blob/master/Generalization%26Usefulness) contains all data we used in this part and the results from model(M), developers(A1,A2,A3) and Evaluator.
+
+
