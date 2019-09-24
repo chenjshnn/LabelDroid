@@ -13,7 +13,7 @@ The experiment results show that our model can make accurate predictions and the
 We also submit our predicted labels of buttons of some apps to their development teams, and successfully get some positive feedback.
 
 
-## Details
+### Details
 To demonstrate our task, we first show some examples to illustrate what is a content description and how to apply labels for a component.
 
 (1) Figure 1 shows an example of UI components and corresponding natural-language labels. For example, the label for the top-right image-based button of this UI screenshot is ''more options''
@@ -66,10 +66,10 @@ The full list of meaningless labels can be seen at [Data_preprocessing/missing_l
 
 
 ## DATASET
-
+Figure 7 shows some examples in our dataset.
 <img src="./Dataset/Figure7.png" alt="Examples of our dataset" width="500"/>
 
-<b>Statistics of our dataset:</b>
+Table 2 shows the statistics of our dataset. In total, we collect 7,694 applications, 36.677 screenshots and 57,698 components. Besides, we split our dataset into train/val/test set, with the ratio of 0.8/0.1/0.1.
 
 <img src="./Dataset/Table2.png" alt="Dataset Statistics" width="500"/>
 
@@ -77,7 +77,7 @@ The full list of meaningless labels can be seen at [Data_preprocessing/missing_l
 
 ## EVALUATION
 We evaluate our model in three aspects, i.e., accuracy with
-automated testing, generality and usefulness with user study. We
+automated testing, generalization and usefulness with user study. We
 also shows the practical value of LabelDroid by submitting the
 labels to app development teams.
 
