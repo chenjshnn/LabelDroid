@@ -86,7 +86,7 @@ We evaluate our model in three aspects, i.e., accuracy with automated testing, g
 Overall accuracy results
 ![Accuracy Results](Accuracy/Table3.png)
 
-To evalute whether the differences are significant, We further conduct the Wilcoxon rank-sum test between LabelDroid and CNN+LSTM and CNN+CNN respectively in all testing metrics (BLEU@1,2,3,4, METEOR, ROUGE-L, CIDEr). We then use Benjamini&Hochberg(BH) method to correct p-values for multiple comparisons. Results show that the improvement of our model is significant in all comparisons, and the detailed corrected p-values are listed below.
+To evalute whether the differences are significant, We further conduct the <b>Wilcoxon rank-sum test</b> between LabelDroid and CNN+LSTM and CNN+CNN respectively in all testing metrics (BLEU@1,2,3,4, METEOR, ROUGE-L, CIDEr). We then use Benjamini&Hochberg(BH) method to correct p-values for multiple comparisons. Results show that <b>the improvement of our model is significant in all comparisons</b>, and the detailed corrected p-values are listed below.
 
 |                | BLEU@1 | BLEU@2  | BLEU@3 | BLEU@4 | METEOR  | ROUGE-L | CIDEr |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
