@@ -36,7 +36,7 @@ To investigate the severity of accessibility issues in mobile applications, we c
 
 **NUMBERS**
 
-We have crawled __19,127 apps__, with _15,089_ succeeding in collecting GUIs. After duplicate screenshot removal, <u>394,489</u> collected screenshots from *15,089* apps left. Within them, *278,234*(70.53%) of them from **10,408** apps contain image-based buttons. These 10,408 apps are the main dataset for analysis in Section 3. Within these *10,408* apps, *7,814* of them contain image buttons and *7,421* apps contain clickable images. 
+We have crawled _19,127 apps_, with _15,089_ succeeding in collecting GUIs. After duplicate screenshot removal, *394,489* collected screenshots from *15,089* apps left. Within them, *278,234*(70.53%) of them from **10,408** apps contain image-based buttons. These 10,408 apps are the main dataset for analysis in Section 3. Within these *10,408* apps, *7,814* of them contain image buttons and *7,421* apps contain clickable images. 
 
 As shown in Table 1, <b>77.38% of applications</b> have at least one UI component lacking labels. In details, <b>60.79% screenshots</b> have at least one UI component missing labels, which means that low-vision/blind people will meet some problems when browsing every two screen of application.
 
