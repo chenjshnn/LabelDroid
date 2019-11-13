@@ -117,7 +117,7 @@ To understand the significance of the differences between four kinds of content 
 
 |            | Corrected p-value | Effect size  |
 | ---------- | -------- | ------------- | 
-| M v.S. A1  | 0.000047 | 0.39  |
+| M v.s. A1  | 0.000047 | 0.39  |
 | M v.s. A2  | 0.0061   | 0.49  | 
 | M v.s. A3  | 0.039    | 0.12  | 
 | A3 v.s. A1 | 0.029    | 0.23  | 
