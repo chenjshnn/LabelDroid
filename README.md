@@ -30,6 +30,10 @@ We only focus on image-based buttons because these buttons give no hints to scre
 
 <img src="./Introduction/Figure3.png" alt="Examples of image-based buttons 1:clickable ImageView; 2/3:ImageButton"   width="600"/>
 
+(4) We additionaly draw a word cloud using our labels.
+
+<img src="./Dataset/wordcloud.png" alt="Examples of word cloud"   width="600"/>
+
 ## MOTIVATIONAL MINING STUDY
 
 To investigate the severity of accessibility issues in mobile applications, we conduct a motivational mining study of <b>15,087</b> apps. Among these apps, we collected <b>394,489 GUI screenshots</b>, and 70.53% of them contain image-based buttons.</b>
