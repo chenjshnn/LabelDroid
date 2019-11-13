@@ -34,7 +34,8 @@ We only focus on image-based buttons because these buttons give no hints to scre
 
 To investigate the severity of accessibility issues in mobile applications, we conduct a motivational mining study of <b>15,087</b> apps. Among these apps, we collected <b>394,489 GUI screenshots</b>, and 70.53% of them contain image-based buttons.</b>
 
-**Number of data**
+**NUMBERS**
+
 We have crawled *19,127* applications, with *15,089* succeeding in collecting GUIs. After fuplicate screenshot removal, *394,489* collected screenshots from *15,089* apps left. Within them, *278,234*(70.53%) of them from **10,408** apps contain image-based buttons. These 10,408 apps are the main dataset for analysis in Section 3. Within these *10,408* apps, *7,814* of them contain image buttons and *7,421* apps contain clickable images. 
 
 As shown in Table 1, <b>77.38% of applications</b> have at least one UI component lacking labels. In details, <b>60.79% screenshots</b> have at least one UI component missing labels, which means that low-vision/blind people will meet some problems when browsing every two screen of application.
