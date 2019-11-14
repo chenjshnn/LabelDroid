@@ -1,6 +1,6 @@
 # Accuracy
 
-### (Section 6.3.1) Wilcoxon rank sum test for accuracy evaluation 
+### (Section 6.3.1) The significance of LabelDroid compared with other baselines -- Wilcoxon rank sum test for accuracy evaluation 
 
 To evalute whether the differences are significant, we further conduct the <b>Wilcoxon rank-sum test</b> between LabelDroid and CNN+LSTM and CNN+CNN respectively in all testing metrics (BLEU@1,2,3,4, METEOR, ROUGE-L, CIDEr). We then use Benjamini&Hochberg(BH) method to correct p-values for multiple comparisons. Results show that <b>the improvement of our model is significant in all comparisons</b>, and the detailed corrected p-values are listed below.
 
@@ -13,7 +13,7 @@ To evalute whether the differences are significant, we further conduct the <b>Wi
 
 # Generalization and Usefulness Evaludation
 
-### (Section 6.4.2) Wilcoxon signed-rank test
+### (Section 6.4.2) The significant of LabelDroid compared with three human annotators -- Wilcoxon signed-rank test
 
 To understand the significance of the differences between four kinds of content descriptions, we carry out the Wilcoxon signed-rank test between the scores of our model and each annotator. We then use Benjamini&Hochberg(BH) method to correct p-values for multiple comparisons, and compute effect size r=Z/sqrt(N), where Z is the statisctical result from test and N is the number of observations. The results show that the differences between our model and A1, A2, A3 are mostly significant (p-value<0.05). Detailed results are listed below.
 
