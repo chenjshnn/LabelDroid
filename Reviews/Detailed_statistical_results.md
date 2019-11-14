@@ -13,7 +13,7 @@ To evalute whether the differences are significant, we further conduct the <b>Wi
 
 # Generalization and Usefulness Evaludation
 
-### (Section 6.4.2) The significant of LabelDroid compared with three human annotators -- Wilcoxon signed-rank test
+### (Section 6.4.2) The significance of LabelDroid compared with three human annotators -- Wilcoxon signed-rank test
 
 To understand the significance of the differences between four kinds of content descriptions, we carry out the Wilcoxon signed-rank test between the scores of our model and each annotator. We then use Benjamini&Hochberg(BH) method to correct p-values for multiple comparisons, and compute effect size r=Z/sqrt(N), where Z is the statisctical result from test and N is the number of observations. The results show that the differences between our model and A1, A2, A3 are mostly significant (p-value<0.05). Detailed results are listed below.
 
