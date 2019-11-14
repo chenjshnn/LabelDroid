@@ -94,9 +94,9 @@ We evaluate our model in three aspects, i.e., accuracy with automated testing, g
 Overall accuracy results
 ![Accuracy Results](Accuracy/Table3.png)
 
-To evalute whether the differences are significant, we further conduct the <b>Wilcoxon rank-sum test</b> between LabelDroid and CNN+LSTM and CNN+CNN respectively in all testing metrics (BLEU@1,2,3,4, METEOR, ROUGE-L, CIDEr). We then use Benjamini&Hochberg(BH) method to correct p-values for multiple comparisons. Results show that <b>the improvement of our model is significant in all comparisons</b>, and the detailed corrected p-values are listed below.
+#### Wilcoxon rank sum test for accuracy evaluation
 
-#### Detailed corrected p-values for accuracy evaluation
+To evalute whether the differences are significant, we further conduct the <b>Wilcoxon rank-sum test</b> between LabelDroid and CNN+LSTM and CNN+CNN respectively in all testing metrics (BLEU@1,2,3,4, METEOR, ROUGE-L, CIDEr). We then use Benjamini&Hochberg(BH) method to correct p-values for multiple comparisons. Results show that <b>the improvement of our model is significant in all comparisons</b>, and the detailed corrected p-values are listed below.
 
 |                | BLEU@1 | BLEU@2  | BLEU@3 | BLEU@4 | METEOR  | ROUGE-L | CIDEr |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -123,9 +123,10 @@ App details and results:
 <img src="Generalization&Usefulness/boxplot.png" alt="Distribution of app acceptability scores by human
 annotators (A1, A2, A3) and the model (M)" width="600"/>
 
-To understand the significance of the differences between four kinds of content description, we carry out the Wilcoxon signed-rank test between the scores of our model and each annotator. We then use Benjamini&Hochberg(BH) method to correct p-values for multiple comparisons, and compute effect size r=Z/sqrt(N), where Z is the statisctical result from test and N is the number of observations. The results show that the differences between our model and A1, A2, A3 are mostly significant (p-value<0.05). Detailed results are listed below.
 
-#### Detailed corrected p-values for generalization and usefulness evaluation
+#### Wilcoxon signed-rank test
+
+To understand the significance of the differences between four kinds of content description, we carry out the Wilcoxon signed-rank test between the scores of our model and each annotator. We then use Benjamini&Hochberg(BH) method to correct p-values for multiple comparisons, and compute effect size r=Z/sqrt(N), where Z is the statisctical result from test and N is the number of observations. The results show that the differences between our model and A1, A2, A3 are mostly significant (p-value<0.05). Detailed results are listed below.
 
 |            | Corrected p-value | Effect size  |
 | ---------- | -------- | ------------- | 
