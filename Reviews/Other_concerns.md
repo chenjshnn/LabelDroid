@@ -1,5 +1,8 @@
 # For Reviewer_A
 
+### Q:Label missing of highly-downloaded apps
+A: We do not carry out separate study of highly-downloaded apps, but in Section3.2, we find that the mean label missing rate of apps with 10K downloads is lower than that of apps with 50M and 100M downloads(though t-test non-significantly with effect sizes<0.2). But the conclusion still holds i.e., the popular apps also suffer from severe label missing issues. 
+
 ### Q: Where are the 12 apps in Section6.4 from?
 
 A: In Section 6.4, we randomly select 12 mobile apps from the data in empirical study for human evaluation. Note that these 12 mobile apps are not in training/validation/testing sets, as these apps have NONE labeled image-based buttons to avoid potential bias, and we only consider apps which have at least 1M installations and at least 15 screenshots to avoid bias. We adopt our model and human annotators to generate the labels for image-based buttons and ask the human evaluator to judge their quality.
