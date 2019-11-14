@@ -1,6 +1,7 @@
 # For Reviewer_A
 
-### Q: Label missing of highly-downloaded apps
+### Q: The significance of Label missing rates of highly-downloaded apps compared with low-downloaded apps
+
 A: We do not carry out separate study of highly-downloaded apps, but in Section3.2, we find that the mean label missing rate of apps with 10K downloads is lower than that of apps with 50M and 100M downloads(though t-test non-significantly with effect sizes<0.2). But the conclusion still holds i.e., the popular apps also suffer from severe label missing issues. 
 
 ### Q: Where are the 12 apps in Section6.4 from?
