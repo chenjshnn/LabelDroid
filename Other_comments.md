@@ -1,10 +1,10 @@
 # For Reviewer_A
 
-## Q: Where are the 12 apps in Section6.4 from?*
+#### Q: Where are the 12 apps in Section6.4 from?*
 
 A: In Section 6.4, we randomly select 12 mobile apps from the data in empirical study for human evaluation. Note that these 12 mobile apps are not in training/validation/testing sets, as these apps have NONE labeled image-based buttons to avoid potential bias, and we only consider apps which have at least 1M installations and at least 15 screenshots to avoid bias. We adopt our model and human annotators to generate the labels for image-based buttons and ask the human evaluator to judge their quality.
 
-## Q: Does the rater catch all deliberate inserted lables?*
+#### Q: Does the rater catch all deliberate inserted lables?*
 
 A: Yes. In Section 6.4.1, we deliberately inserting 2 wrong labels and 2 suitable labels. The evaluator successfully identifies them, showing his capability in the label judge.
 
