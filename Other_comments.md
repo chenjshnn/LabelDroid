@@ -25,6 +25,6 @@ A: We will add this part in revision.
 
 # For Reviewer_C
 
-### Q: 77% number on the summary of Section3.2
+### Q: Where is the number 77% on the summary of Section3.2 from?
 A: It is in fact 77.38% mentioned in table1, which indicates that 77.38% of 10,408 apps, which contain image-based buttons, have at least one button lacking labels.
 
