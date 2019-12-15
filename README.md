@@ -84,7 +84,6 @@ Table 2 shows the statistics of our dataset. In total, we collect 7,694 applicat
 
 <img src="./Dataset/Table2.png" alt="Dataset Statistics" width="600"/>
 
-*Dataset can be download at <https://drive.google.com/open?id=1STZ5D3-sOzEeB1fPxJvLRwoOaYEUh6o6>*
 
 ## EVALUATION
 We evaluate our model in three aspects, i.e., accuracy with automated testing, generalization and usefulness with user study. We also shows the practical value of LabelDroid by submitting the labels to app development teams.
