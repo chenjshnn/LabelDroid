@@ -45,7 +45,6 @@ recipes
 the secret affirmation daily
 relay
 balboa park
-gps
 goalalert
 duncan creek elementary
 refuel calc
@@ -60,7 +59,6 @@ smart voice changer
 rom vs transformers shining armor 5
 cdc logo
 solo locker
-play nrk p3
 abort music video creation
 bbm feeds
 magnifier
@@ -131,7 +129,6 @@ train mic
 sim card
 sipgo
 wrcj
-play no radio reception
 fotmob
 bbm groups
 com a1 quiz asvab free dto answer 681077
@@ -149,7 +146,6 @@ lazyiptv
 mathematics
 banelco movil
 all recipes free
-remove from recent books list
 birthday cards
 cameras wyoming traffic cams
 shoes closet
@@ -166,7 +162,6 @@ theory of machines
 emoticon
 forbes
 nytimes
-beauty assistant
 mania recipes
 esync
 my diet coach
@@ -197,7 +192,6 @@ puzzles flowers
 daily holidays
 myanmar hotlines
 gps tracks offline
-play nrk p2
 tesco clubcard
 decluttr
 baby sleep
@@ -292,7 +286,6 @@ ds photo
 cameras missouri traffic cams
 operating system os
 perfect chess trainer demo
-play nrk p1
 asiana soon
 open m tickets app
 krishna ringtones
@@ -335,7 +328,6 @@ baby major steps
 countries of the world
 com a1 quiz asvab free dto answer cf46645
 english idioms free ocoder
-games completed
 prayer times
 bring zombie apocalypse into your photos
 press to edit number of travelers
@@ -447,7 +439,6 @@ kxt
 duplicate photos remover
 local backup only
 yachtingweather
-pause nrk p1
 information button
 timetable
 app cache cleaner
@@ -473,7 +464,6 @@ niconico
 internetcalls
 agerola experience
 cgv cinemas
-play nrk national rap show
 food service
 my location
 ups mobile
