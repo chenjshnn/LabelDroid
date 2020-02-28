@@ -12,6 +12,8 @@ To overcome these challenges, we develop a deep-learning based model to <b> auto
 The experiment results show that our model can make accurate predictions and the generated labels are of higher quality than that from real Android developers.
 We also submit our predicted labels of buttons of some apps to their development teams, and successfully get some positive feedback.
 
+Our full paper can be downloaded at [pdf](./icse20-main-1044.pdf)
+
 
 ### Details
 To demonstrate our task, we first show some examples to illustrate what is natural-language labels for components and how to set up labels for components.
@@ -136,6 +138,6 @@ To understand the significance of the differences between four kinds of content 
 
 <img src="Generalization&Usefulness/Table7.png" alt="Examples of generalization" />
 
-[Generalization&Usefulness](https://github.com/icse2020Accessibility/icse2020Accessibility/blob/master/Generalization%26Usefulness) contains all data we used in this part and the results from model(M), developers(A1,A2,A3) and Evaluator.
+[Generalization&Usefulness](https://github.com/chenjshnn/LabelDroid/blob/master/Generalization%26Usefulness) contains all data we used in this part and the results from model(M), developers(A1,A2,A3) and Evaluator.
 
 
