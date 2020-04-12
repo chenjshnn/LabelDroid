@@ -70,7 +70,7 @@ Preprocessing:
 (2) Labels contain the app's name, e.g., "ringtone maker" for App Ringtone Maker
 (3) Unfinished labels, e.g., "content description"
 
-*The full list of meaningless labels can be seen at [meaningless_label](./Data_Preprocessing/meaningless_label.txt)*
+*The full list of meaningless labels can be seen at [meaningless_label](./Data_preprocessing/meaningless_label.txt)*
 
 
 ## DATASET
