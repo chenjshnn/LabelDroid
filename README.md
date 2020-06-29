@@ -91,7 +91,7 @@ We evaluate our model in three aspects, i.e., accuracy with automated testing, g
 ### Accuracy
 
 Overall accuracy results
-![Accuracy Results](Accuracy/Table3.png)
+![Accuracy Results ](Accuracy/Table3.png)
 
 #### Wilcoxon rank sum test for accuracy evaluation
 
