@@ -12,7 +12,7 @@ To overcome these challenges, we develop a deep-learning based model to <b> auto
 The experiment results show that our model can make accurate predictions and the generated labels are of higher quality than that from real Android developers.
 We also submit our predicted labels of buttons of some apps to their development teams, and successfully get some positive feedback.
 
-Our full paper can be downloaded at [pdf](./icse20-main-1044.pdf)
+
 
 
 ### Details
