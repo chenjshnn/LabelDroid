@@ -37,17 +37,17 @@ To demonstrate our task, we first show some examples to illustrate what is natur
 
 (1) Figure 1 shows an example of UI components and corresponding natural-language labels. For example, the label for the top-right image-based button of this UI screenshot is ''more options''
 
-<img src="./Introduction/Figure1.png" alt="Example of UI components and labels"  width="600"/>
+<img src="./Introduction/Figure1.png" alt="Example of UI components and labels"  width="500"/>
 
 (2) Figure 2 shows how to set up an image-based button within the source code
 
-<img src="./Introduction/Figure2.png" alt="Source code for setting up labels for 'add playlist' button (which is indeed a clickable ImageView)"   width="600"/>
+<img src="./Introduction/Figure2.png" alt="Source code for setting up labels for 'add playlist' button (which is indeed a clickable ImageView)"   width="500"/>
 
 We only focus on image-based buttons because these buttons give no hints to screen reader when developers fail to label them, while for other components, such as TextView and EditText, screen reader could read the content directly.
 
 (3) Figure 3 gives some examples of image-based buttons, including clickable ImageView and ImageButton
 
-<img src="./Introduction/Figure3.png" alt="Examples of image-based buttons 1:clickable ImageView; 2/3:ImageButton"   width="600"/>
+<img src="./Introduction/Figure3.png" alt="Examples of image-based buttons 1:clickable ImageView; 2/3:ImageButton"   width="350"/>
 
 ## MOTIVATIONAL MINING STUDY
 
@@ -69,7 +69,7 @@ In addition, we plot a box-plot regarding to different download number (as seen 
 <b>no significant difference</b> between applications with different download numbers. Even applications with over 50M download number have a severe accessibility problem. We conducted a Spearman rank-order correlation test between app download number and label-missing
 rate. The correlation coefficient is 0.046 showing a very weak relationship between these two factors.
 
-<img src="./Motivational_mining_study/Figure5.png" alt="Box-plot for missing rate distribution of all apps with different download number"   width="600"/>
+<img src="./Motivational_mining_study/Figure5.png" alt="Box-plot for missing rate distribution of all apps with different download number"   width="350"/>
 
 ## APPROACH
 Figure 6 shows the overview of our approach. We first encode a component image via ResNet101 model, and then feed the extracted features into Transformer encoder-decoder model and finally generate the natural-language labels for this component.
@@ -80,12 +80,12 @@ Figure 6 shows the overview of our approach. We first encode a component image v
 To implement our model, we first filter noisy data to construct our dataset.
 
 Preprocessing:
-1. Filter duplicate xml
-2. Filter duplicate elements by comparing both their screenshots and the content descriptions
-3. Filter low-quality labels
-(1) Labels contain the class of elments, e.g, "ImageView"
-(2) Labels contain the app's name, e.g., "ringtone maker" for App Ringtone Maker
-(3) Unfinished labels, e.g., "content description"
+- Filter duplicate xml
+- Filter duplicate elements by comparing both their screenshots and the content descriptions
+- Filter low-quality labels
+  - Labels contain the class of elments, e.g, "ImageView"
+  - Labels contain the app's name, e.g., "ringtone maker" for App Ringtone Maker
+  - Unfinished labels, e.g., "content description"
 
 *The full list of meaningless labels can be seen at [meaningless_label](./Data_preprocessing/meaningless_label.txt)*
 
