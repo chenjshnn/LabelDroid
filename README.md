@@ -1,12 +1,16 @@
 # Unblind Your Apps: Predicting Natural-Language Labels for Mobile GUI Components by Deep Learning
 
-Accepted to ICSE2020. ACM SIGSOFT Distinguished Paper Award.
+**Accepted to ICSE2020. ACM SIGSOFT Distinguished Paper Award.
 
-paper: https://arxiv.org/abs/2003.00380
-video: ![Youtube](https://www.youtube.com/watch?v=zoRu7UOXAeY&list=PLh7v-bsdypMGkREL9PPVczHtaVLlL4P5h&index=4) ![iQiYi](https://www.iqiyi.com/v_19rzke53xo.html)
-pptx: ![ICSE-jieshan.pptx](ICSE-jieshan-1.1.pptx)
-Dataset for training/validatingmodel: [Google Drive](https://drive.google.com/open?id=19KG0eX7311EbpMnqGEXzAOYG2n3zZWqp)
-Dataset for empirical study: coming soon...
+*paper*: https://arxiv.org/abs/2003.00380
+
+*video*: [Youtube](https://www.youtube.com/watch?v=zoRu7UOXAeY&list=PLh7v-bsdypMGkREL9PPVczHtaVLlL4P5h&index=4) ![iQiYi](https://www.iqiyi.com/v_19rzke53xo.html)
+
+*pptx*: [ICSE-jieshan.pptx](ICSE-jieshan-1.1.pptx)
+
+*Dataset for training/validating/testing model*: [Google Drive](https://drive.google.com/open?id=19KG0eX7311EbpMnqGEXzAOYG2n3zZWqp)
+
+*Dataset for empirical study*: coming soon...
 
 
 ## INTRODUCTION
