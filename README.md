@@ -14,7 +14,7 @@
 
 - Dataset for training/validating/testing model: [Google Drive](https://drive.google.com/open?id=19KG0eX7311EbpMnqGEXzAOYG2n3zZWqp)
 
-- Dataset for the motivational mining study: [Dropbox](https://www.dropbox.com/sh/kfkhevxykzwputb/AAAhL6ipmOg4zZn4jUL_myF0a?dl=0)
+- Raw dataset for the motivational mining study: [Dropbox](https://www.dropbox.com/sh/kfkhevxykzwputb/AAAhL6ipmOg4zZn4jUL_myF0a?dl=0)
 
 
 ## INTRODUCTION
