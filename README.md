@@ -41,7 +41,7 @@ To demonstrate our task, we first show some examples to illustrate what is natur
 
 (2) Figure 2 shows how to set up an image-based button within the source code
 
-<img src="./Introduction/Figure2.png" alt="Source code for setting up labels for 'add playlist' button (which is indeed a clickable ImageView)"   width="500"/>
+<img src="./Introduction/Figure2.png" alt="Source code for setting up labels for 'add playlist' button (which is indeed a clickable ImageView)"   width="600"/>
 
 We only focus on image-based buttons because these buttons give no hints to screen reader when developers fail to label them, while for other components, such as TextView and EditText, screen reader could read the content directly.
 
@@ -93,11 +93,11 @@ Preprocessing:
 ## DATASET
 Figure 7 shows some examples in our dataset.
 
-<img src="./Dataset/Figure7.png" alt="Examples of our dataset" width="600"/>
+<img src="./Dataset/Figure7.png" alt="Examples of our dataset" width="350"/>
 
 Table 2 shows the statistics of our dataset. In total, we collect 7,594 applications, 13,145 screenshots and 19,233 components. Besides, we split our dataset into train/val/test set, with the approximate ratio of 0.8/0.1/0.1.
 
-<img src="./Dataset/Table2.png" alt="Dataset Statistics" width="600"/>
+<img src="./Dataset/Table2.png" alt="Dataset Statistics" width="350"/>
 
 *The full dataset can be downloaded via [Google Drive](https://drive.google.com/open?id=19KG0eX7311EbpMnqGEXzAOYG2n3zZWqp)*
 
