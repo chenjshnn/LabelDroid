@@ -10,6 +10,8 @@
 
 - PPT: [ICSE-jieshan.pptx](ICSE-jieshan-1.1.pptx)
 
+- Blog: [Chinese](https://zhuanlan.zhihu.com/p/158444845)
+
 - Dataset for training/validating/testing model: [Google Drive](https://drive.google.com/open?id=19KG0eX7311EbpMnqGEXzAOYG2n3zZWqp)
 
 - Dataset for empirical study*: coming soon...
