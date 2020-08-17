@@ -8,7 +8,7 @@
 
 - Video: [Youtube](https://www.youtube.com/watch?v=zoRu7UOXAeY&list=PLh7v-bsdypMGkREL9PPVczHtaVLlL4P5h&index=4) / [iQiYi](https://www.iqiyi.com/v_19rzke53xo.html)
 
-- PPT: [ICSE-jieshan.pptx](ICSE-jieshan-1.1.pptx)
+- PPT: [ICSE-jieshan.pptx](ICSE-jieshan.pptx)
 
 - Blog: [Chinese](https://zhuanlan.zhihu.com/p/158444845)
 
