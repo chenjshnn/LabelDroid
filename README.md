@@ -158,4 +158,18 @@ To understand the significance of the differences between four kinds of content 
 
 [Generalization&Usefulness](assets/Generalization%26Usefulness) contains all data we used in this part and the results from model(M), developers(A1,A2,A3) and Evaluator.
 
+# Citation
 
+```
+@Inproceedings{chen2020unblind,
+  title={Unblind Your Apps: Predicting Natural-Language Labels for Mobile GUI Components by Deep Learning},
+  author={Chen, Jieshan and Chen, Chunyang and Xing, Zhenchang and Xu, Xiwei and Zhu, Liming and Li, Guoqiang and Wang, Jinshui},
+  booktitle={42nd International Conference on Software Engineering (ICSE '20)},
+  year = "2020",
+  publisher = "ACM",
+  address = "New York, NY",
+  pages = "13 pages",
+  month = "May 23-29, 2020",
+  doi = "10.1145/3377811.3380327",
+}
+```
