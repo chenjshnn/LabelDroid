@@ -175,3 +175,24 @@ To understand the significance of the differences between four kinds of content 
   doi = "10.1145/3377811.3380327",
 }
 ```
+
+
+bib
+```
+@inproceedings{unblind2020chen,
+author = {Chen, Jieshan and Chen, Chunyang and Xing, Zhenchang and Xu, Xiwei and Zhu, Liming and Li, Guoqiang and Wang, Jinshui},
+title = {Unblind Your Apps: Predicting Natural-Language Labels for Mobile GUI Components by Deep Learning},
+year = {2020},
+isbn = {9781450371216},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3377811.3380327},
+doi = {10.1145/3377811.3380327},
+booktitle = {Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering},
+pages = {322–334},
+numpages = {13},
+keywords = {accessibility, neural networks, content description, user interface, image-based buttons},
+location = {Seoul, South Korea},
+series = {ICSE '20}
+}
+```

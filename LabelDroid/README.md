@@ -1,34 +1,35 @@
 # IMPLEMENTATION
 
-## PREREQUISITE
+## Prerequisite
 
-Python 3.5
-pytorch 1.1.0
+- Python 3.5
+
+- pytorch 1.1.0
 
 
-## DATA
+## Data Structure
 
-### IMAGE
+### Image
 
 ```
 <DATASET_FOLDER>
-	├── train
-	   ├── **/**.png
-	├── val
-	   ├── **/**.png
-	├──test
-	   ├── **/**.png
+├── train
+   ├── **/**.png
+├── val
+   ├── **/**.png
+├──test
+   ├── **/**.png
 ```
 
 Image_name should be <imgid>.png
 
-### ANNOTATION
+### Annotation
 
 ```
 <ANNOTATION_FOLDER>
-	├── annotations_train.json
-	├── annotations_val.json
-	├── annotations_test.json
+├── annotations_train.json
+├── annotations_val.json
+├── annotations_test.json
 ```
 
 Annotation:  Please refer to [COCO dataset format](http://cocodataset.org/#format-data)
@@ -45,9 +46,9 @@ anno_item = {"id":int, "caption":str, "image_id":int}
 img_item = {"id":int, "filename":"**/**.png", "height":int, weight:int}
 ```
 
-## USAGE
+## Usage
 
-### PREPARATION
+### Preparation
 
 * STEP 1: install all required packages *
 ``` pip install -r requirement ```
@@ -62,7 +63,7 @@ python data_utils/build_vocab.py \
 --vocab_path <VOCAB_OUTPUT_PATH>.pkl
 ```
 
-### TRAIN your own model
+### Training
 ```
 python train.py \
 --image_root <PATH_TO_YOUR_DATASET_FOLDER> \
@@ -76,14 +77,14 @@ python train.py \
 
 *More options could be seen in opts.py*
 
-### LOG
+### Logging
 ```
 cd <PATH_TO_MODEL_DIR>
 tensorboard --logdir=.
 ```
 
 
-### TEST 
+### Testing 
 ```
 python3 test.py \
 --image_root <PATH_TO_YOUR_DATASET_FOLDER> \
@@ -97,7 +98,7 @@ python3 test.py \
 
 All results will be saved to result.txt 
 
-## ACKNOELEDGEMENTS
+## Acknowledgment
 Some codes are based on the following repositories. Thanks for their work.
 
 - https://github.com/aditya12agd5/convcap
