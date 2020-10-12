@@ -16,7 +16,9 @@
 
 - Raw dataset for the motivational mining study: [Dropbox](https://www.dropbox.com/sh/kfkhevxykzwputb/AAAhL6ipmOg4zZn4jUL_myF0a?dl=0)
 
-- Code: Please contact me via my email (Jieshan.Chen@anu.edu.au)
+- Code: See [LabelDroid]()
+
+- Pretrained Model: [Google Drive](https://drive.google.com/drive/folders/1bw7UxglCLXqtnnhdlulAKd-XC7ZpiuWb)
 
 ## INTRODUCTION
 According to the World Health Organization(WHO), it is estimated that <b> approximately 1.3 billion people live with some form of vision impairment globally, of whom 36 million are blind.</b>
