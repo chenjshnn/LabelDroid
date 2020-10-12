@@ -1,0 +1,14 @@
+numpy
+opencv-python
+parse
+Pillow
+tensorboard==2.1.0
+torch==1.1.0
+torchvision==0.2.1
+tqdm
+argparse
+pickle
+json
+copy
+pycocotools
+tensorboardX==1.8

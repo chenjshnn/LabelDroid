@@ -1,0 +1,32 @@
+this tutorial we're going to be learning about something called adapter classes
+what an adapter class does is it already implements an interface and it overrides
+now in the last tutorial when we implemented from the interface like
+override all of those seven time-consuming methods like we did
+it with a method body that is pretty much a blank body or pretty much a body
+that's going to appear in your status bar so now we can go ahead build our
+might as well next we can go ahead and build our status bar which is the only
+to put string in details and what this program is going to do is it's pretty
+that does nothing any we're saying all right what's the point of that well in
+rest whenever you do them they just don't do anything at all just like we
+the methods that you need so it's pretty cool in the sense that you don't have to
+that way when you inherit from an adapter class you only have to override
+much just going to say how many times arm well you'll see what it does but
+variables the status bar in the details is pretty much going to be the text
+you should always have a title get that their real name it tootle I mean why not
+here and the first thing they're both going to be private variables I'm going
+want your program to detect all of those different methods sometimes you only
+Mouse listener and Mouse motion listener we had to implement seven different
+methods and those are kind of time consuming in sometimes you don't always
+kind of save you some time they made something called an adapter class and
+want your programming to be able to tell when a user click something instead of
+put status bar or whatever you named it last time and now we got two private
+parameters and for the body let's go ahead and add a title super title since
+going to make two variables for our program again get all your imports right
+before you only have to override the ones that you're going to use in the
+pretty much this details is going to tell what's going to be displayed in the
+drag release move you only need one of those so what Java did is in order to
+what is going on guys welcome to your seventy seventh Java tutorial and in
+status bar so that's all you need to know for now private J label and just
+constructor which is like gooey it's not going to take any
+thing we're really going to want up here in the window so wow I really miss that
+wanted them to so let me go ahead and show you guys what I'm talking about
