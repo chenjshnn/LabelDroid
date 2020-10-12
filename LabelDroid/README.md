@@ -10,35 +10,40 @@ pytorch 1.1.0
 
 ### IMAGE
 
+```
 <DATASET_FOLDER>
-	|_ train
-	  |_ **/**.png
-	|_ val
-	  |_ **/**.png
-	|_test
-	  |_ **/**.png
+	├── train
+	   ├── **/**.png
+	├── val
+	   ├── **/**.png
+	├──test
+	   ├── **/**.png
+```
 
 Image_name should be <imgid>.png
 
 ### ANNOTATION
 
+```
 <ANNOTATION_FOLDER>
-	|_ annotations_train.json
-	|_ annotations_val.json
-	|_ annotations_test.json
-
+	├── annotations_train.json
+	├── annotations_val.json
+	├── annotations_test.json
+```
 
 Annotation:  Please refer to [COCO dataset format](http://cocodataset.org/#format-data)
 
 *annotation_{split}.json*
+```
 {
  "annotations": [anno_item1, anno_item2, ...],
  "images": [img_item1, img_item2, img_item3, ...]
 }
 
-anno_item: {"id":int, "caption":str, "image_id":int}
-img_item: {"id":int, "filename":"**/**.png", "height":int, weight:int}
+anno_item = {"id":int, "caption":str, "image_id":int}
 
+img_item = {"id":int, "filename":"**/**.png", "height":int, weight:int}
+```
 
 ## USAGE
 
@@ -52,7 +57,9 @@ img_item: {"id":int, "filename":"**/**.png", "height":int, weight:int}
 * STEP 3: generate the vocab.pkl *
 
 ``` 
-python data_utils/build_vocab.py --caption_path <PATH_TO_YOUR_TRAIN_ANNOTATION_JSON> --vocab_path <VOCAB_OUTPUT_PATH>.pkl
+python data_utils/build_vocab.py \
+--caption_path <PATH_TO_YOUR_TRAIN_ANNOTATION_JSON> \
+--vocab_path <VOCAB_OUTPUT_PATH>.pkl
 ```
 
 ### TRAIN your own model
@@ -88,12 +95,13 @@ python3 test.py \
 --split test \
 ```
 
-
-Therefore, all results will saved to result.txt 
+All results will be saved to result.txt 
 
 ## ACKNOELEDGEMENTS
-Some codes are modified from the following repositories. Thanks for their work.
+Some codes are based on the following repositories. Thanks for their work.
 
-https://github.com/aditya12agd5/convcap
-https://github.com/yunjey/pytorch-tutorial
-https://nlp.seas.harvard.edu/2018/04/03/attention.html
+- https://github.com/aditya12agd5/convcap
+
+- https://github.com/yunjey/pytorch-tutorial
+
+- https://nlp.seas.harvard.edu/2018/04/03/attention.html

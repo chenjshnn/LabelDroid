@@ -16,7 +16,7 @@
 
 - Raw dataset for the motivational mining study: [Dropbox](https://www.dropbox.com/sh/kfkhevxykzwputb/AAAhL6ipmOg4zZn4jUL_myF0a?dl=0)
 
-- Code: See [LabelDroid]()
+- Code: See [LabelDroid](.\LabelDroid)
 
 - Pretrained Model: [Google Drive](https://drive.google.com/drive/folders/1bw7UxglCLXqtnnhdlulAKd-XC7ZpiuWb)
 
