@@ -4,7 +4,7 @@
 
 ## Resource
 
-- Paper: [arXiv](https://arxiv.org/abs/2003.00380)
+- Paper: [ACM](https://dl.acm.org/doi/abs/10.1145/3377811.3380327) / [arXiv](https://arxiv.org/abs/2003.00380)
 
 - Video: [Youtube](https://www.youtube.com/watch?v=zoRu7UOXAeY&list=PLh7v-bsdypMGkREL9PPVczHtaVLlL4P5h&index=4) / [iQiYi](https://www.iqiyi.com/v_19rzke53xo.html)
 
@@ -164,22 +164,6 @@ To understand the significance of the differences between four kinds of content 
 
 ```
 @Inproceedings{chen2020unblind,
-  title={Unblind Your Apps: Predicting Natural-Language Labels for Mobile GUI Components by Deep Learning},
-  author={Chen, Jieshan and Chen, Chunyang and Xing, Zhenchang and Xu, Xiwei and Zhu, Liming and Li, Guoqiang and Wang, Jinshui},
-  booktitle={42nd International Conference on Software Engineering (ICSE '20)},
-  year = "2020",
-  publisher = "ACM",
-  address = "New York, NY",
-  pages = "13 pages",
-  month = "May 23-29, 2020",
-  doi = "10.1145/3377811.3380327",
-}
-```
-
-
-bib
-```
-@inproceedings{unblind2020chen,
 author = {Chen, Jieshan and Chen, Chunyang and Xing, Zhenchang and Xu, Xiwei and Zhu, Liming and Li, Guoqiang and Wang, Jinshui},
 title = {Unblind Your Apps: Predicting Natural-Language Labels for Mobile GUI Components by Deep Learning},
 year = {2020},

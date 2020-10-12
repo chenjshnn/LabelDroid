@@ -50,12 +50,13 @@ img_item = {"id":int, "filename":"**/**.png", "height":int, weight:int}
 
 ### Preparation
 
-* STEP 1: install all required packages *
+* STEP 1: install all required packages 
+
 ``` pip install -r requirement ```
 
-* STEP 2: prepare your data as above format *
+* STEP 2: prepare your data as above format
 
-* STEP 3: generate the vocab.pkl *
+* STEP 3: generate the vocab.pkl 
 
 ``` 
 python data_utils/build_vocab.py \
