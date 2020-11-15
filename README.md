@@ -4,7 +4,7 @@
 
 ## Resource
 
-- Paper: [arXiv](https://arxiv.org/abs/2003.00380)
+- Paper: [arXiv](https://arxiv.org/abs/2003.00380), [ACM](https://dl.acm.org/doi/abs/10.1145/3377811.3380327)
 
 - Video: [Youtube](https://www.youtube.com/watch?v=zoRu7UOXAeY&list=PLh7v-bsdypMGkREL9PPVczHtaVLlL4P5h&index=4) / [iQiYi](https://www.iqiyi.com/v_19rzke53xo.html)
 
