@@ -287,7 +287,7 @@ class Transformer(nn.Module):
 		Encoder(EncoderLayer(d_model, c(attn), c(ff), dropout), N),
 		Decoder(DecoderLayer(d_model, c(attn), c(attn), 
 							 c(ff), dropout), N),
-		lambda x:x, #nn.Sequential(Embeddings(d_model, src_vocab), c(position)),
+		nn.Identity(), #lambda x:x, #nn.Sequential(Embeddings(d_model, src_vocab), c(position)),
 		nn.Sequential(Embeddings(d_model, tgt_vocab), c(position)),
 		Generator(d_model, tgt_vocab))
 		
