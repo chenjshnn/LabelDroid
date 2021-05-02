@@ -326,7 +326,7 @@ class Transformer(nn.Module):
 		# print("final output generator:", outputs.size())
 		return outputs
 	
-	def evaluate(self, att_feats, max_len, start_symbol=1, att_masks=None):
+	def evaluate(self, att_feats, max_len=15, start_symbol=1, att_masks=None):
 		att_feats = self.att_embed(att_feats)
 		memory = self.model.encode(att_feats, att_masks)
 		batch_size = att_feats.shape[0]

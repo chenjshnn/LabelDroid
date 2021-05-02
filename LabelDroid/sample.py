@@ -178,7 +178,7 @@ def sample(args):
 					if(j < max_tokens-1):
 						wordclass_feed[k, j+1] = wordids[j+k*(max_tokens-1)]
 			
-			for j in range(min(len(sentence_ids), args.batch_size)):
+			for j in range(min(len(outcaps), args.batch_size)):
 				num_words = len(outcaps[j]) 
 				if '<end>' in outcaps[j]:
 					num_words = outcaps[j].index('<end>')
@@ -190,7 +190,7 @@ def sample(args):
 
 		elif args.caption_model == "transformer":
 			features = encoder(images)
-			sentence_ids = decoder.evaluate(features, args.max_tokens).cpu().numpy()
+			sentence_ids = decoder.evaluate(features, max_len=args.max_tokens).cpu().numpy()
 	
 			# Convert word_ids to words
 			for j in range(min(len(sentence_ids), args.batch_size)):
