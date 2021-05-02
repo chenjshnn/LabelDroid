@@ -4,7 +4,7 @@
 
 ## Resource
 
-- Paper: [arXiv](https://arxiv.org/abs/2003.00380)
+- Paper: [arXiv](https://arxiv.org/abs/2003.00380), [ACM](https://dl.acm.org/doi/abs/10.1145/3377811.3380327)
 
 - Video: [Youtube](https://www.youtube.com/watch?v=zoRu7UOXAeY&list=PLh7v-bsdypMGkREL9PPVczHtaVLlL4P5h&index=4) / [iQiYi](https://www.iqiyi.com/v_19rzke53xo.html)
 
@@ -12,13 +12,13 @@
 
 - Blog: [Chinese](https://zhuanlan.zhihu.com/p/158444845)
 
-- Dataset for training/validating/testing model: [Google Drive](https://drive.google.com/open?id=19KG0eX7311EbpMnqGEXzAOYG2n3zZWqp)
+- Dataset for training/validating/testing model: [Dropbox](https://www.dropbox.com/sh/7jwtjhuqh2rit6x/AACriiIAxdEY-WdiJCpt2NTPa?dl=0)
 
 - Raw dataset for the motivational mining study: [Dropbox](https://www.dropbox.com/sh/kfkhevxykzwputb/AAAhL6ipmOg4zZn4jUL_myF0a?dl=0)
 
 - Code: See [LabelDroid](LabelDroid)
 
-- Pretrained Model: [Google Drive](https://drive.google.com/drive/folders/1bw7UxglCLXqtnnhdlulAKd-XC7ZpiuWb)
+- Pretrained Model: [Dropbox](https://www.dropbox.com/sh/7jwtjhuqh2rit6x/AACriiIAxdEY-WdiJCpt2NTPa?dl=0)
 
 ## INTRODUCTION
 According to the World Health Organization(WHO), it is estimated that <b> approximately 1.3 billion people live with some form of vision impairment globally, of whom 36 million are blind.</b>

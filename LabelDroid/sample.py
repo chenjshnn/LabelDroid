@@ -17,9 +17,6 @@ from models.image_models import ResNetFeats
 from opts import get_opt
 import models
 
-import sys
-sys.path.insert(0, "/media/cheer/UI/GITHUB/UIDetection/FASTER_RCNN")
-
 from PIL import Image
 
 from torch.utils.data import Dataset
