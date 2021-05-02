@@ -290,11 +290,7 @@ class Transformer(nn.Module):
 		Encoder(EncoderLayer(d_model, c(attn), c(ff), dropout), N),
 		Decoder(DecoderLayer(d_model, c(attn), c(attn), 
 							 c(ff), dropout), N),
-<<<<<<< HEAD
 		nn.Identity(), #lambda x:x, #self.identical_map, #nn.Sequential(Embeddings(d_model, src_vocab), c(position)),
-=======
-		nn.Identity(), #lambda x:x, #nn.Sequential(Embeddings(d_model, src_vocab), c(position)),
->>>>>>> 4040fb57e5c92b8c6ad486608843ffd72d92d46f
 		nn.Sequential(Embeddings(d_model, tgt_vocab), c(position)),
 		Generator(d_model, tgt_vocab))
 		
