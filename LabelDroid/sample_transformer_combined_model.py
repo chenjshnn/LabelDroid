@@ -8,13 +8,23 @@ from tqdm import tqdm
 from PIL import Image
 
 import torch
-from torch import nn
-from torch.utils.data import Dataset
+# from torch import nn
+# from torch.utils.data import Dataset
 from torchvision import transforms
 from torch.autograd import Variable
 
-from opts import get_opt
-from models.combined_model import LabelDroid
+# from opts import get_opt
+# from models.combined_model import LabelDroid
+
+parser = argparse.ArgumentParser(description='PyTorch Convolutional Image Captioning Model')
+
+# Data settings
+parser.add_argument('--image_root', type=str, default= './data/coco/',\
+		help='directory containing coco dataset train2014, val2014, & annotations')
+parser.add_argument('--vocab_path', type=str, default= "data/vocab.pkl", help='vocabulary path')
+parser.add_argument('--model_path', type=str, help='load trained model')
+parser.set_defaults(attention=True)
+args = parser.parse_args()
 
 
 def sample(args):
@@ -80,7 +90,7 @@ def sample(args):
 		sentence_ids = labeldroid(images)
 		
 		# Convert word_ids to words
-		for j in range(min(len(sentence_ids), args.batch_size)):
+		for j in range(len(sentence_ids)):
 			sampled_caption = []
 			word_raw_id = []
 			for word_id in sentence_ids[j]:
@@ -99,9 +109,5 @@ def sample(args):
 		json.dump(pred_captions, f)
 	
 
-def main(args):
-	sample(args)
- 
 if __name__ == "__main__":
-	args = get_opt()
-	main(args)
+	sample(args)
