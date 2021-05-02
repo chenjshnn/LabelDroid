@@ -8,10 +8,10 @@ from tqdm import tqdm
 from PIL import Image
 
 import torch
+from torchvision import transforms
 # from torch import nn
 # from torch.utils.data import Dataset
-from torchvision import transforms
-from torch.autograd import Variable
+# from torch.autograd import Variable
 
 # from opts import get_opt
 # from models.combined_model import LabelDroid
@@ -19,7 +19,7 @@ from torch.autograd import Variable
 parser = argparse.ArgumentParser(description='PyTorch Convolutional Image Captioning Model')
 
 # Data settings
-parser.add_argument('--image_root', type=str, default= './data/coco/',\
+parser.add_argument('--image_root', type=str, default= './sample',\
 		help='directory containing coco dataset train2014, val2014, & annotations')
 parser.add_argument('--vocab_path', type=str, default= "data/vocab_idx2word.josn", help='vocabulary idx2word path')
 parser.add_argument('--model_path', type=str, help='load trained pt model')
@@ -84,7 +84,7 @@ def sample(args):
 		images = img_transforms_test(images)
 		# convert to torch tensor 
 		# and then add one dimension -> [1, 3, 244, 244]
-		images = Variable(images).unsqueeze(0).to(device)
+		images = images.unsqueeze(0).to(device)
 
 		# get generated token ids
 		sentence_ids = labeldroid(images)
