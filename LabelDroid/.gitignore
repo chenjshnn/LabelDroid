@@ -1,0 +1,3 @@
+data/*
+run/models_transformer/*
+*.pt

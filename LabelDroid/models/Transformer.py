@@ -276,6 +276,9 @@ def subsequent_mask(batch_size, size):
 
 # src_vocab == att_vec_len
 class Transformer(nn.Module):
+
+	def identical_map(x):
+		return x
 	def make_model(self, tgt_vocab, N=6, 
 			   d_model=512, d_ff=2048, h=8, dropout=0.1):
 		"Helper: Construct a model from hyperparameters."
@@ -287,7 +290,7 @@ class Transformer(nn.Module):
 		Encoder(EncoderLayer(d_model, c(attn), c(ff), dropout), N),
 		Decoder(DecoderLayer(d_model, c(attn), c(attn), 
 							 c(ff), dropout), N),
-		lambda x:x, #nn.Sequential(Embeddings(d_model, src_vocab), c(position)),
+		nn.Identity(), #lambda x:x, #self.identical_map, #nn.Sequential(Embeddings(d_model, src_vocab), c(position)),
 		nn.Sequential(Embeddings(d_model, tgt_vocab), c(position)),
 		Generator(d_model, tgt_vocab))
 		

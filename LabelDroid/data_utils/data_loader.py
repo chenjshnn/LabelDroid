@@ -4,6 +4,8 @@ Author: Jieshan Chen
 
 import os, nltk, json
 import numpy as np
+import sys
+sys.path.insert(0, "/media/cheer/UI/GITHUB/UIDetection/FASTER_RCNN")
 
 from PIL import Image
 from data_utils.build_vocab import Vocabulary
