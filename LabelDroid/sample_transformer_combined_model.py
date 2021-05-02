@@ -21,8 +21,8 @@ parser = argparse.ArgumentParser(description='PyTorch Convolutional Image Captio
 # Data settings
 parser.add_argument('--image_root', type=str, default= './data/coco/',\
 		help='directory containing coco dataset train2014, val2014, & annotations')
-parser.add_argument('--vocab_path', type=str, default= "data/vocab.pkl", help='vocabulary path')
-parser.add_argument('--model_path', type=str, help='load trained model')
+parser.add_argument('--vocab_path', type=str, default= "data/vocab_idx2word.josn", help='vocabulary idx2word path')
+parser.add_argument('--model_path', type=str, help='load trained pt model')
 parser.set_defaults(attention=True)
 args = parser.parse_args()
 
