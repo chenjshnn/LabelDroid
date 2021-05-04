@@ -13,6 +13,6 @@ class LabelDroid(nn.Module):
 
 	def forward(self, images):
 		features = self.encoder(images)
-		sentence_ids = self.decoder.evaluate(features, self.args.max_tokens).cpu().numpy()
+		sentence_ids = self.decoder.evaluate(features, self.args.max_tokens)
 		return sentence_ids
 	
