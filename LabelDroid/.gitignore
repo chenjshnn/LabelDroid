@@ -1,3 +1,4 @@
 data/*
 run/models_transformer/*
+*.onnx
 *.pt
