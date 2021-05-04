@@ -39,16 +39,10 @@ def sample(args):
 	if os.path.exists(args.model_path):
 		print(('[INFO] Loading checkpoint %s' % args.model_path))
 
-		# checkpoint = torch.load(args.model_path)
-		# labeldroid = LabelDroid(args)
-		# labeldroid.decoder.load_state_dict(checkpoint['decoder_state_dict'])
-		# labeldroid.encoder.load_state_dict(checkpoint['encoder_state_dict'])
-
 		labeldroid = torch.load(args.model_path)
 		labeldroid.to(device)
 		labeldroid.eval()
 
-		# torch.save(labeldroid, "labeldroid.pt")
 	else:
 		print("Error: the model path does not exist -", args.model_path)
 		sys.exit(0)
@@ -87,8 +81,12 @@ def sample(args):
 		images = images.unsqueeze(0).to(device)
 
 		# get generated token ids
-		sentence_ids = labeldroid(images)
-		
+		sentence_ids = labeldroid(images).cpu().numpy()
+
+		# torch.onnx.export(labeldroid, images, "labeldroid.onnx", \
+		# 				  verbose=True, input_names=["images"], output_names=["sentence_ids"])
+
+
 		# Convert word_ids to words
 		for j in range(len(sentence_ids)):
 			sampled_caption = []

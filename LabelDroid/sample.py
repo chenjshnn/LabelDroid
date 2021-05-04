@@ -13,6 +13,8 @@ from torch.optim import lr_scheduler
 from torch.autograd import Variable
 from data_utils.build_vocab import Vocabulary
 
+
+# from models.combined_model import LabelDroid
 from models.image_models import ResNetFeats
 from opts import get_opt
 import models
@@ -107,6 +109,13 @@ def sample(args):
 		# decoder = torch.load("decoder.pt")
 
 		checkpoint = torch.load(args.model_path)
+
+
+		# labeldroid = LabelDroid(args)
+		# labeldroid.decoder.load_state_dict(checkpoint['decoder_state_dict'])
+		# labeldroid.encoder.load_state_dict(checkpoint['encoder_state_dict'])
+		# torch.save(labeldroid, "labeldroid.pt")
+
 		encoder = ResNetFeats(args) 
 		decoder = models.setup(args)
 		decoder.load_state_dict(checkpoint['decoder_state_dict'])
