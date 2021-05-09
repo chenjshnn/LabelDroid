@@ -340,7 +340,7 @@ class Transformer(nn.Module):
 			#print(prob.shape)
 			#print(prob[0])
 			_, next_word = torch.max(prob, dim = 1)
-			next_word = next_word.data
+			next_word = next_word
 			#print(next_word)
 			ys = torch.cat([ys, next_word.unsqueeze(-1)], dim=1)
 		#print(ys)
