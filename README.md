@@ -12,13 +12,13 @@
 
 - Blog: [Chinese](https://zhuanlan.zhihu.com/p/158444845)
 
-- Dataset for training/validating/testing model: [Dropbox](https://www.dropbox.com/sh/7jwtjhuqh2rit6x/AACriiIAxdEY-WdiJCpt2NTPa?dl=0)
+- Dataset for training/validating/testing model: [Zenodo](https://zenodo.org/record/8100245)
 
 - Raw dataset for the motivational mining study: [Dropbox](https://www.dropbox.com/sh/kfkhevxykzwputb/AAAhL6ipmOg4zZn4jUL_myF0a?dl=0)
 
 - Code: See [LabelDroid](LabelDroid)
 
-- Pretrained Model: [Dropbox](https://www.dropbox.com/sh/7jwtjhuqh2rit6x/AACriiIAxdEY-WdiJCpt2NTPa?dl=0)
+- Pretrained Model: [Zenodo](https://zenodo.org/record/8100245)
 
 ## INTRODUCTION
 According to the World Health Organization(WHO), it is estimated that <b> approximately 1.3 billion people live with some form of vision impairment globally, of whom 36 million are blind.</b>
